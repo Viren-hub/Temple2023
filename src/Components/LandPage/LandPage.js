@@ -1,8 +1,8 @@
 import './LandPage.css'
 function LandPage() {
   
-  return (<div>
-   
+  return (<div className='langpage'>
+    <h2>Landpage</h2>
   </div>)
 }
 

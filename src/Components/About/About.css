@@ -9,7 +9,7 @@
 .ab-box{
     height: 90%;
     width: 50%;
-    background-color: rgba(128, 128, 128, 0.479);
+    background-color: rgba(222, 9, 9, 0.906);
 }
 @media only screen and (max-width: 600px) {
     .about{

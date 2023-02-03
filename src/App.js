@@ -8,6 +8,7 @@ import LandPage from './Components/LandPage/LandPage'
 import About from './Components/About/About';
 import Gallery from './Components/Gallery/Gallery'
 import ChairPerson from './Components/ChairPerson/ChairPerson'
+import Contact from './Components/Contact/Contact'
 function App() {
   return (
     <div>
@@ -17,7 +18,9 @@ function App() {
             <About />
             <Gallery />
             <ChairPerson />
+            <Contact />
             <Footer />
+            
         </div>
     </div>
   );
