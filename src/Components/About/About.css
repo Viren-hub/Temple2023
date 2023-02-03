@@ -1,0 +1,24 @@
+.about{
+    height: 100vh;
+    width: 100vw;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab-box{
+    height: 90%;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+@media only screen and (max-width: 600px) {
+    .about{
+        flex-direction: column;
+    }
+    .ab-box{
+        height: 100%;
+        width: 90%;
+        background-color: rgba(169, 84, 84, 0.511);
+        border: 2px solid black;
+    }
+  }

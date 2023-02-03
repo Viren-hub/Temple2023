@@ -1,0 +1,25 @@
+.chairPerson{
+    width: 100vw;
+    height: 100vh;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cp-box{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(172, 255, 47, 0.531);   
+}
+
+@media only screen and (max-width: 600px) {
+    .chairPerson{
+        flex-direction: column;
+    }
+    .cp-box{
+        height: 100%;
+        width: 90%;
+        background-color: rgba(169, 84, 84, 0.511);
+        border: 2px solid black;
+    }
+  }
