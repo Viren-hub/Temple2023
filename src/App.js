@@ -1,6 +1,7 @@
 
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js';
 import React from 'react';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
