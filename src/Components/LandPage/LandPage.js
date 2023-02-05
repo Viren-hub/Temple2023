@@ -1,8 +1,10 @@
 import './LandPage.css'
+import image from '../../assets/office1.jpg';
 function LandPage() {
   
   return (<div className='langpage'>
-    <h2>Landpage</h2>
+              <img src={image} alt="office"/>
+
   </div>)
 }
 
