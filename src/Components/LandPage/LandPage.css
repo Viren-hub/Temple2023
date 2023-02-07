@@ -1,5 +1,10 @@
 .langpage{
     width: 100vw;
     height: 90vh;
-    background-color: orange;
+}
+.langpage img{
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
