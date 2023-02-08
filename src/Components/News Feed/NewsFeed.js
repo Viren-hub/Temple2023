@@ -5,6 +5,7 @@ export default function NewsFeed() {
   return (
     <div className='NewsFeed'>
         <h1>News Feed</h1>
+        <p>lotr</p>
     </div>
   )
 }
