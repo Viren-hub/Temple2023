@@ -21,7 +21,7 @@ nav a {
 	margin: 0 1rem;
 	color: #F64c72;
 	text-decoration: none;
-	font-size: larger;
+	font-size: large;
 }
 
 nav a:hover {
@@ -48,17 +48,14 @@ nav {
 }
 
  @media only screen and (max-width: 900px) {
-	.header .nav-btn {
-		visibility: visible;
-		opacity: 1;
-	}
+
 
 	.header nav {
-		position: fixed;
+		position:absolute;
 		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
+	    right: 0;
+		height: 100vh;
+		width: 100vw;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -67,6 +64,13 @@ nav {
 		background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
 		transition: 1s;
 		transform: translateY(-100vh);
+	}
+	.header .nav-btn {
+		visibility: visible;
+		opacity: 1;	
+		position: absolute;
+		top: 0%;
+	    right: 0%;
 	}
 
 	.header .responsive_nav {
