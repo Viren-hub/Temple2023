@@ -4,7 +4,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js';
 import React from 'react';
 import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
+// import Header from './Components/Header/Header';
 import LandPage from './Components/LandPage/LandPage'
 import About from './Components/About/About';
 import Gallery from './Components/Gallery/Gallery'
@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
         <div className='main'>
-            <Header />
+            {/* <Header /> */}
             <LandPage />
             <About />
             <Gallery />

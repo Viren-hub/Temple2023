@@ -1,5 +1,85 @@
 .contact{
     height: 80vh;
     width: 100vw;
-    background-color: lightsalmon;
+    display: flex;
+}
+.contact1{
+    height: 80vh;
+    width: 50vw;
+    background-image:url(../../assets/contact-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact2{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 189, 222);
+    position: relative;
+}
+.Cform{
+    height: 80vh;
+    width: 30vw;
+    position: absolute;
+    top: 20%;
+}
+.mb-3{
+    font-size: 1.2rem;
+}
+.btn{
+    height: 7vh;
+    width: 5vw;
+    background-color: #F64c72;
+    color:white;
+}
+.btn:hover{
+    background-color: white;
+    color:#F64c72;
+    border:2px solid #F64c72;
+}
+@media screen and (max-width:500px){
+    .contact{
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+    }
+    .contact1{
+        height: 80vh;
+        width: 50vw;
+        background-image:url(../../assets/contact-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: none;
+    }
+.contact2{
+    height: 80vh;
+    width: 100vw;
+    
+    background-color: rgb(192, 189, 222);
+    position: relative;
+}
+.Cform{
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+}
+.mb-3{
+    font-size: 1.2rem;
+}
+.btn{
+    height: 7vh;
+    width: 20vw;
+    background-color: #F64c72;
+    color:white;
+}
+.btn:hover{
+    background-color:white;
+    color:#F64c72;
+    border:2px solid #F64c72;
+
+}
 }

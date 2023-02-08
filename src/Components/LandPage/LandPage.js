@@ -1,15 +1,28 @@
+import React from 'react'
 import './LandPage.css'
-import image from '../../assets/office1.jpg';
-// import Header from '../Header/Header';
-
+import Header from '../Header/Header';
 
 function LandPage() {
-  
-  return (<div className='langpage'>
-    {/* <Header /> */}
-              <img src={image} alt="office"/>
-             
-  </div>)
+
+  return (
+    
+  <div className='langpage'>
+    <div className='para'>
+      <p>Many US companies have an executive chairperson;
+         this method of organization is sometimes called the 
+         American model. Having a non-executive chairperson is 
+         common in the UK and Canada, and is sometimes called the 
+         British model. Expert opinion is rather evenly divided over
+          which is the preferable model.</p>
+          </div>
+          <button className="btn1">
+            DONATE
+          </button>
+          <Header />
+
+    </div>
+  // </div>
+  )
 }
 
 
