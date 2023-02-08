@@ -19,7 +19,7 @@ function App() {
             <About />
             <Gallery />
             <ChairPerson />
-            <NewsFeed/>
+       
             <Contact />
             <Footer />
             
