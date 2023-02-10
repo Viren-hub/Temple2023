@@ -15,7 +15,10 @@ import './Header.css';
     <div className='header'>
       <nav ref={navRef}>
 				<a href="/#">HOME</a>
+
+				<a href="/#">ABOUT</a>
 				<a href="/#">PAGES</a>
+
 				<a href="/#">EVENT</a>
 				<a href="/#">HOLIS</a>
 				<a href="/#">PUJA</a>
