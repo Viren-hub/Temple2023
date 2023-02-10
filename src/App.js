@@ -19,6 +19,7 @@ function App() {
             <About />
             <Gallery />
             <ChairPerson />
+       
             <Contact />
             <Footer />
             
