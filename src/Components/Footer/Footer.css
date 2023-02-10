@@ -1,5 +1,49 @@
 .footer{
     width: 100vw;
     height: 50vh;
-    background-color: gray;
+    background-color: #F64c72;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.f1{
+    height: 100%;
+    width: 20vw;
+    /* background-color: rebeccapurple; */
+}
+.f1 img{
+    height: 70%;
+    width: 20vw;
+    margin-top: 30px;
+}
+.f2{
+    height: 100%;
+    width: 20vw;
+    /* background-color: black; */
+    display: block;
+    text-align: center;
+    padding: 100px 0px;
+}
+.f2 a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 0px;
+}
+.f2 a:hover{
+    color:black;
+}
+.f3{
+    height: 100%;
+    width: 20vw;
+    /* background-color: rgb(51, 153, 105); */
+    padding: 40px 0px;
+}
+.f3 a:hover{
+    color:black;
+}
+@media only screen and (max-width: 900px) {
+
+     .f2{
+        display: none;
+     }
 }
