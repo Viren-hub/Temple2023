@@ -21,7 +21,7 @@ nav a {
 	margin: 0 1rem;
 	color: #F64c72;
 	text-decoration: none;
-	font-size: larger;
+	font-size: large;
 }
 
 nav a:hover {
@@ -80,7 +80,7 @@ nav {
 	}
 
 	nav a {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		color: white;
 	}
 } 
