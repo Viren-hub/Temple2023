@@ -1,75 +1,187 @@
 .langpage{
     width: 100vw;
     height: 100vh;
-    background-image: url(../../assets/office2.jpg);
+    background-image: url(../../assets/god.jpg.crdownload);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
 .para{
-    height: 20vh;
-    width: 45vw;
-    font-size:1.4rem;
-    text-align: center;
+    height: 40vh;
+    width: 35vw;
+    font-size:1rem;
+    /* text-align: center; */
     position: absolute;
-    left: 25%;
-    top: 37%;
+    left: 8%;
+    top: 50%;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(7, 1, 19);
     font-weight:bold;
+    /* border: 2px solid black; */
 }
-.btn1{
-    height: 6%;
-    width: 13%;
-    background-color: #F64c72;
-    color:white;
-    border: 1px solid #F64c72;
+.line1{
+    width: 0vw;
+    height: 5vh;
     position: absolute;
-    left: 42%;
-    top: 65%;
+    left: -34px;
+    top: 5%;
+    border: 1px solid rgb(125, 39, 72);
+}
+.line2{
+    width: 0vw;
+    height: 9vh;
+    position: absolute;
+    left: -29px;
+    top: 0%;
+    border: 1px solid rgb(125, 39, 72);
+}
+.line3{
+    width: 0vw;
+    height: 5vh;
+    position: absolute;
+    left: -24px;
+    top: 5%;
+    border: 1px solid rgb(125, 39, 72);
+}
+.heading h2{
+    height: 40%;
+    width: 35%;
+    position: absolute;
+    left: 6%;
+    top: 30%;
+    font-size:3rem;
+    font-weight: bold;
+    color: red;
+}
 
+.btn1{
+    height: 7%;
+    width: 10%;
+    background-color:rgb(82, 13, 28);
+    color:white;
+    border-radius: 40px;
+    position: absolute;
+    left: 6%;
+    top: 65%;
+    font-weight: bold;
 }
 .btn1:hover{
     background-color: white;
-    color:#F64c72;
-    border:2px solid #F64c72;
+    color:rgb(173, 14, 49);
+    border:2px solid rgb(82, 13, 28);;
 }
+.btn2{
+    height: 7%;
+    width: 10%;
+    background-color: white;
+    color:rgb(173, 14, 49);
+    border-radius: 40px;
+    border: 2px solid white;
+    position: absolute;
+    top: 65%;
+    left: 17%;
+    font-weight: bold;
+}
+.btn2:hover{
+    background-color:rgb(82, 13, 28) ;
+    color: white;
+    border: 2px solid white;
+}
+
 @media only  screen and (max-width: 900px) {
     .langpage{
     width: 100vw;
     height: 80vh;
     background-image:none;
-    background-color: rgb(26, 133, 183);
+    background-color: rgb(209, 131, 168);
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
     position: relative;
     }
     .para{
+        height: 10%;
         width: 90%;
         font-size:1rem;
-        text-align: center;
+        /* text-align: center; */
         position: absolute;
-        left: 3%;
-        top: 30%;
+        left: 6%;
+        top: 45%;
         font-weight: bold;
         color: rgb(66, 24, 15);
         font-family: Arial, Helvetica, sans-serif;
         
     }
+    .line1{
+        width: 0vw;
+        height: 5vh;
+        position: absolute;
+        left: -34px;
+        top: 5%;
+        border: 1px solid rgb(125, 39, 72);
+        display: none;
+    }
+    .line2{
+        width: 0vw;
+        height: 9vh;
+        position: absolute;
+        left: -29px;
+        top: 0%;
+        border: 1px solid rgb(125, 39, 72);
+        display: none;
+
+    }
+    .line3{
+        width: 0vw;
+        height: 5vh;
+        position: absolute;
+        left: -24px;
+        top: 5%;
+        border: 1px solid rgb(125, 39, 72);
+        display: none;
+
+    }
+    .heading h2{
+        height: 40%;
+        width: 100%;
+        position: absolute;
+        left: 1%;
+        top: 25%;
+        font-size:2.3rem;
+        font-weight: bold;
+        color: rgb(245, 11, 11);
+        text-align: center;
+    }
     .btn1{
         height: 6%;
-        width: 25%;
-        background-color: #F64c72;
+        width: 35%;
+        background-color:rgb(82, 13, 28);
         color:white;
-        border: 1px solid #F64c72;
+        border-radius: 40px;
         position: absolute;
-        left: 38%;
-        top: 55%;
+        left:8%;
+        top: 65%;
     
     }
     .btn1:hover{
         background-color: white;
-        color:#F64c72;
-        border:2px solid #F64c72;
+        color:rgb(173, 14, 49);
+        border:2px solid rgb(82, 13, 28);
+    }
+    .btn2{
+        height: 6%;
+        width: 40%;
+        background-color: white;
+        color:rgb(173, 14, 49);
+        border-radius: 40px;
+        border: 2px solid white;
+        position: absolute;
+        top: 65%;
+        left: 45%;
+        font-weight: bold;
+    }
+    .btn2:hover{
+        background-color:rgb(82, 13, 28) ;
+        color: white;
+        border: 2px solid white;
     }
 }
