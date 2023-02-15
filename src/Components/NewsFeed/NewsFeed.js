@@ -3,6 +3,8 @@ import './NewsFeed.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -11,8 +13,11 @@ export default function NewsFeed() {
     <div>
        <h1 className='heading'>News Feed</h1>
        <div className='NewsFeed'>  
-
+           
+        {/* <Carousel>
+        <Carousel.Item> */}
         <div className='box'>
+        
         <img src="https://thumbs.dreamstime.com/b/copper-kalash-glass-spoon-plate-used-bramhins-sacred-thread-ceremony-performing-sandhya-vandanam-kriya-over-101249182.jpg" alt="Description of the image" />
         <div className='b'>
         <div className='b1'> <span role="img" aria-label="Om">&#x1F549;</span> Temple,Love</div>
@@ -27,9 +32,11 @@ export default function NewsFeed() {
           by <span style={{color:'red'}}>Miha Boukar</span>
         </div>
         </div>
+       
         </div>
-        
+        {/* </Carousel.Item>
 
+        <Carousel.Item> */}
         <div className='box'>
         <img src="https://thumbs.dreamstime.com/b/diya-kalash-incense-sticks-fruit-any-age-old-traditional-way-performing-prayers-puja-india-134806998.jpg" alt="Description of the image" />
         <div className='b'>
@@ -46,8 +53,9 @@ export default function NewsFeed() {
         </div>
         </div>
         </div>
+        {/* </Carousel.Item>
 
-
+        <Carousel.Item> */}
         <div className='box'>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdvAGcKOyYTZ-PYfXWLCa0iBc_-EqR3zlSxl0w10k4v77AiCTWlkzw38BmQ5RXnFzAvmE&usqp=CAU" alt="Description of the image" />
         <div className='b'>
@@ -65,10 +73,15 @@ export default function NewsFeed() {
         </div>
         
         </div>
+        {/* </Carousel.Item>
+        </Carousel> */}
     </div>
     </div>
   )
 }
+
+
+
 
 
 
