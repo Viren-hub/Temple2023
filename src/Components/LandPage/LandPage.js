@@ -1,23 +1,34 @@
 import React from 'react'
 import './LandPage.css'
 import Header from '../Header/Header';
+import { FiArrowRight } from "react-icons/fi";
+
 
 function LandPage() {
 
   return (
     
   <div className='langpage'>
-    <div className='para'>
-      <p>Many US companies have an executive chairperson;
-         this method of organization is sometimes called the 
-         American model. Having a non-executive chairperson is 
-         common in the UK and Canada, and is sometimes called the 
-         British model. Expert opinion is rather evenly divided over
-          which is the preferable model.</p>
+    <div className='heading'>
+    
+    <h2>Some Important Life Lessons From Gita</h2>
+</div><div className='para'>
+      <p>
+        <img className='line1'alt=''/>
+        <img className='line2'alt=''/>
+        <img className='line3'alt=''/>
+
+        We are a Hindu that belives in Lord Rama and Vishnu Deva the followers
+         and We are a Hindu that belives in Lord Rama and Vishnu Deva.This is where 
+        you should start
+      </p>
           </div>
           <button className="btn1">
-            DONATE
+            JOIN TODAY        <FiArrowRight />
           </button>
+           <button className='btn2'>
+            VIEW SERVICES        <FiArrowRight/>
+           </button>
           <Header />
 
     </div>
