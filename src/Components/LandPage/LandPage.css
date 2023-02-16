@@ -1,4 +1,4 @@
-.langpage{
+.landpage{
     width: 100vw;
     height: 100vh;
     background-image: url(../../assets/god.jpg.crdownload);
@@ -89,27 +89,27 @@
 }
 
 @media only  screen and (max-width: 900px) {
-    .langpage{
+    .landpage{
     width: 100vw;
     height: 80vh;
-    background-image:none;
-    background-color: rgb(209, 131, 168);
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
+    background-image: url(../../assets/mainBg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     }
-    .para{
+    .landpage .para{
         height: 10%;
         width: 90%;
         font-size:1rem;
-        /* text-align: center; */
         position: absolute;
         left: 6%;
         top: 45%;
+        /* color: rgb(245, 11, 11); */
+        color:white;
+
         font-weight: bold;
-        color: rgb(66, 24, 15);
         font-family: Arial, Helvetica, sans-serif;
-        
+        text-align: center;
     }
     .line1{
         width: 0vw;
@@ -144,22 +144,23 @@
         height: 40%;
         width: 100%;
         position: absolute;
-        left: 1%;
+        left: 0%;
         top: 25%;
         font-size:2.3rem;
         font-weight: bold;
-        color: rgb(245, 11, 11);
+        /* color: rgb(245, 11, 11); */
+        color:white;
         text-align: center;
     }
     .btn1{
-        height: 6%;
-        width: 35%;
+        height: 8%;
+        width: 39%;
         background-color:rgb(82, 13, 28);
         color:white;
-        border-radius: 40px;
+        border-radius: 35px;
         position: absolute;
-        left:8%;
-        top: 65%;
+        left:7%;
+        top: 67%;
     
     }
     .btn1:hover{
@@ -168,15 +169,15 @@
         border:2px solid rgb(82, 13, 28);
     }
     .btn2{
-        height: 6%;
+        height: 8%;
         width: 40%;
         background-color: white;
         color:rgb(173, 14, 49);
-        border-radius: 40px;
+        border-radius: 35px;
         border: 2px solid white;
         position: absolute;
-        top: 65%;
-        left: 45%;
+        top: 67%;
+        left: 47%;
         font-weight: bold;
     }
     .btn2:hover{

@@ -47,11 +47,13 @@
     font-weight: 100px;
     /* padding-bottom: 5%; */
 }
+
 .box .b1{
     height: 50%;
     width: 70%;
     /* border: 1px green solid; */
     margin-left:7%;
+    font-weight: bold;
 }
 .paragraph{
     height: 10%; 

@@ -8,7 +8,7 @@ function LandPage() {
 
   return (
     
-  <div className='langpage'>
+  <div className='landpage'>
     <div className='heading'>
     
     <h2>Some Important Life Lessons From Gita</h2>
@@ -24,7 +24,7 @@ function LandPage() {
       </p>
           </div>
           <button className="btn1">
-            JOIN TODAY        <FiArrowRight />
+            JOIN TODAY<FiArrowRight />
           </button>
            <button className='btn2'>
             VIEW SERVICES        <FiArrowRight/>
