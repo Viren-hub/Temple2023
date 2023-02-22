@@ -159,6 +159,22 @@
     border: 1px solid rgb(250, 242, 245);
     border-radius: 10px;
     color:white;
+    position: relative;
+}
+.user{
+    color: rgb(160, 150, 150);
+    position: absolute;
+    top: 13%;
+    left: 21%;
+    font-size: 1.5rem;
+}
+.user1{
+    color: rgb(160, 150, 150);
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    font-size: 1.5rem;
+
 }
 .contact-form .full{
     display: flex;
@@ -173,13 +189,7 @@
     position: relative;
     color: white;
 }
-.user{
-    color: rgb(160, 150, 150);
-    position: absolute;
-    top: 13%;
-    left: 21%;
-    font-size: 1.5rem;
-}
+
 .sub{
     color: rgb(160, 150, 150);
     position: absolute;
@@ -187,14 +197,7 @@
     left: 21%;
     font-size: 1.5rem;
 }
-.user1{
-    color: rgb(160, 150, 150);
-    position: absolute;
-    top: 13%;
-    left: 45%;
-    font-size: 1.5rem;
 
-}
 .mail{
     color: rgb(160, 150, 150);
     position: absolute;
@@ -312,7 +315,6 @@ span{
     .contact{
         height: 100vh;
         width: 100vw;
-
     }
     .contact h5{
         /* text-align: center; */
@@ -323,34 +325,34 @@ span{
         text-align: center;
         font-weight: bold;
         color: red;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
     .vcontact{
-        height: 19%;
+        height: 15%;
         width: 100%;
-        background-color: rgb(53, 13, 28);
+        background-color: rgb(75, 23, 42);
         display:block;
-        margin-top: -3%;
+        /* margin-top: 1%; */
          /* justify-content:space-evenly;
          align-items: center;  */
          flex-direction: column;
-        position: relative;
+        /* position: relative; */
     }
     .contact1{
          height: 25%;
         width: 100%;
-        border: 2px solid black;  
+        border: 2px solid rgb(0, 0, 0);  
          display: contents;
-        position: absolute;
+        /* position: absolute;
         left: 8%;
-        top: 8%;
+        top: 8%; */
     }
     .contact1 h4{
         color: white;
         text-align: center;
         margin-top: 0.7rem;
         letter-spacing:0.1rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
      }
     
     .contact1 img{
@@ -364,12 +366,12 @@ span{
    .contact2{
        height: 25%;
        border: 2px solid black;
-       background-color: rgb(24, 255, 186);
+       background-color: rgb(58, 12, 30);
        width: 100%;
        display: contents;
-       position: absolute;
+       /* position: absolute;
        left: 57%;
-       top: 8%;
+       top: 8%; */
        /* text-align: center; */
    }
    .contact2 img{
@@ -383,18 +385,19 @@ span{
    } 
    .contact2 h6{
        color: white;
-       font-size: 1.5rem; 
-       /* margin-top: 0.4rem;    */
+       font-size: 1.2rem; 
    }
    .contact2 input{
-        width: 55%;
-       height:25%;
+        width: 58%;
+       height:28%;
        background-color:rgb(131, 35, 69);
+
        border-radius:0.4rem;
        display: inline-block;
-       position: absolute;
+       margin-left: 21%;
+       /* position: absolute;
        top:60%;
-       left: 24%;
+       left: 24%; */
        outline: none;
        border: none;
        }
@@ -402,22 +405,24 @@ span{
            color: white;
        }
     .btn-5{
-       width:10%;
-       height: 25%;
+       width:8%;
+       height:28%;
        background-color:rgb(131, 35, 69);
        color: white;
        text-align: center;
        border-radius: 10% 10% 10% 10%;
-       position: absolute;
-       /* left: 69%; */
+       /* position: absolute;
+       left: 69%;
        top: 60%;
-       right: 21%;
+       right: 21%; */
+       font-size: 1rem;
+       margin-right:-4%;
        transition: 1s;
        transform: scale(1);
    }
    .btn-5:hover{
-       width:10%;
-       height: 25%;
+       width:8%;
+       height: 28%;
        background-color: rgb(231, 231, 245);
        color:black;
        transform: scale(1);
@@ -437,114 +442,105 @@ span{
        display: none;
    }
    .contact3{
-       height: 65vh;
+       height: 60vh;
        width: 100%;
        border: 2px solid black;
        position: absolute;
         top: 100%;
        left: 1%; 
-       display:block;
-       background-color: rgb(77, 33, 48);
+       /* display:block; */
        /* display: none; */
    
    }
    .left{
        width:100%;
-       height:30vh;
-       /* background-color: rgb(43, 186, 226); */
+       height:60vh;
    }
    .contact-form{
        display:block;
        width:100%;
-       height:20vh;
+       height:60vh;
        /* border: 2px solid rgb(243, 240, 240); */
    }
-   /* input,textarea{
-       width: 100%;
-       background:transparent;
-       padding: 2%;
-       margin: 1rem;
-   }  */
+    
    .contact-form .half{
        display: block;
    }
    .half input{
        width: 90%;
        background:transparent;
-        padding: 3%;
-       margin: 0rem 0.2rem 0.2rem 1rem; 
+       margin-top:-1% ;
         border: 1px solid rgb(250, 242, 245);
        border-radius: 5px;
-       height: 4vh;
+       position: relative;
+       
    }
+   .user{
+    color: rgb(160, 150, 150);
+    position: absolute;
+     top: 0.5em;
+     left: 13em;
+  /* text-align: right; */
+    font-size: 1.5rem;
+}
+.user1{
+    color: rgb(160, 150, 150);
+    position: absolute;
+    top: 2.8em;
+     left: 13em;
+    font-size: 1.5rem;
+}
    .contact-form .full{
        display: block;
-    
+       height: 20%;
    }
    .full input{
        width: 90%;
        background:transparent;
-       height: 4vh;
-       padding:3%;
-       margin: 0rem 0.2rem 0.2rem 1rem; 
+       margin-top:-1% ;
        border: 1px solid rgb(250, 242, 245);;
        border-radius: 5px;
        position: relative;
    }
-   .user{
-       color: rgb(160, 150, 150);
-       position: absolute;
-       top: 3%;
-       left: 83%;
-       font-size: 1.3rem;
-   }
+   
    .sub{
        color: rgb(160, 150, 150);
        position: absolute;
-       top: 17%;
-       left: 83%;
-       font-size: 1.3rem;
+       top: 4.9em;
+       left: 13em;
+       font-size: 1.5rem;
    }
-   .user1{
-       color: rgb(160, 150, 150);
-       position: absolute;
-       top: 10%;
-       left: 83%;
-       font-size: 1.3rem;
    
-   }
    .mail{
        color: rgb(160, 150, 150);
        position: absolute;
-       top: 24%;
-       left: 83%;
-       font-size: 1.3rem;
+       top: 7em;
+       left: 13em;
+       font-size: 1.5rem;
    
    }
    .contact-form textarea{
        width: 90%;
        background: transparent;
-       margin: 0rem 0.2rem 0.2rem 1rem; 
-
        border: 1px solid white;
        border-radius:5px;
-       height: 22%;
        color: dimgrey;
-       margin-top: 0.2rem;
-   }
+       margin:6% 0% 0% 4%;
+       align-items: center;
+    }
    .btn4{
-       height: 14%;
+       height: 8%;
        width: 90%;
        background-color:rgb(116, 60, 72);
        color:white;
        border: 1px solid rgb(116, 60, 72);
        border-radius: 40px;
        margin-left: 5%;
-       margin-top: -0rem;
+       margin-top: 1%;
        font-size: 0.7rem;
    }
    .btn4:hover{
-    height: 15%;
+    height: 8%;
        background-color: white;
        color:rgb(173, 14, 49);
        border:2px solid rgb(82, 13, 28);
@@ -558,81 +554,7 @@ span{
        justify-content:space-evenly;
        align-items: center;
        /* margin-top: -5%; */
+       display: none;
    }
-   .one{
-       height: 15vh;
-       /* background-color: aqua; */
-   }
-   .one h3{
-       font-size:1rem;
-       font-family:Brush Script MT	 ;
-       letter-spacing: 0.2rem;
-       /* font-weight: bold; */
-       color: white;
-       text-align: center;
-       margin-top: -4%;
-   }
-   .one h4{
-       font-size:1rem;
-       font-family:Papyrus;
-       /* letter-spacing: 0.2rem; */
-       font-weight: bold;
-       color: rgb(208, 201, 201);
-       text-align: center;
-       margin-top: -4%;
-   }
-   .one h6{
-       font-size: 1rem;
-       font-family:Brush Script MT;
-       letter-spacing: 0.1rem;
-       /* font-weight: bold; */
-       color: white;
-       text-align: center;
-       margin-top: -5%;
-   }
-   .two{
-       height: 15vh;
-   }
-   .two h3{
-       font-size:1rem;
-       font-family:Courier ;
-       letter-spacing: 0.2rem;
-       /* font-weight: bold; */
-       color: rgb(208, 201, 201);
-       text-align: center;
-       margin-top: -2%;
-   }
-   span{
-       font-size:1rem;
-       font-family:Gabriola;
-       font-weight: bold;
-       letter-spacing: 0.2rem;
-       margin-top: -3%;
-   }
-   .two h4{
-       font-size:1rem;
-       font-family:MS Gothic;
-       /* letter-spacing: 0.2rem; */
-       font-weight: bold;
-       color: rgb(208, 201, 201);
-       text-align: center;
-       margin-top: -2%;
-   }
-   .two h6{
-       font-size: 1rem;
-       font-family:Courier;
-       letter-spacing: 0.1rem;
-       /* font-weight: bold; */
-       color: rgb(208, 201, 201);
-       text-align: center;
-       margin-top: -4%;
-   }
-   span{
-       font-size:1rem;
-       font-family:Gabriola;
-       font-weight: bold;
-       letter-spacing: 0.3rem;
-       margin-top: -4%;
-
-   }
+   
 }

@@ -6,7 +6,6 @@ import './Header.css';
 
  function Header() {
   const navRef = useRef();
-
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};
