@@ -39,16 +39,19 @@ export default function Contact() {
           <form className='contact-form'>
               <div className='half'>
              <input type="text"placeholder='First Name'required /><div className='user'><BsPerson/></div>
-             <input type="text"placeholder='Last Name'required/></div><div className='user1'><BsPerson/></div>
+             <input type="text"placeholder='Last Name'required/><div className='user1'><BsPerson/></div>
+             </div>
              <div className='full'>
              <input type="text"placeholder='Subject'required/><div className='sub'><BsPencil/></div>
-             <input type="email"placeholder='Email address'required/></div><div className='mail'><AiOutlineMail/></div>
+             <input type="email"placeholder='Email address'required/><div className='mail'><AiOutlineMail/></div>
+             </div> 
              <textarea  placeholder='Enter Message' rows="5" cols="50">
                </textarea>
                <button className='btn4'>GET A QUOTE <FiArrowRight /></button>
           </form>
           </div>
           </div>
+          
           <div className='right'>
             <div className='one'>
              <h3>Maha Shivratri</h3><br/>

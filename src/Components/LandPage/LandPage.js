@@ -8,31 +8,35 @@ function LandPage() {
 
   return (
     
+
   <div className='landpage'>
-    <div className='heading'>
-    
-    <h2>Some Important Life Lessons From Gita</h2>
-</div><div className='para'>
-      <p>
-        <img className='line1'alt=''/>
-        <img className='line2'alt=''/>
-        <img className='line3'alt=''/>
-
-        We are a Hindu that belives in Lord Rama and Vishnu Deva the followers
+    <div className='nav'>
+    <Header />
+      </div>
+      {/* <div className='main-div'> */}
+      <div className='left-one'>
+      <h1>Some Important Life Lessons From Gita</h1><br/>
+      <div className='vleft'>
+      <div className='left-img'>
+      <img className='line4'alt=''/>
+        <img className='line5'alt=''/>
+        <img className='line6'alt=''/>
+        </div>
+        <p>
+      We are a Hindu that belives in Lord Rama and Vishnu Deva the followers
          and We are a Hindu that belives in Lord Rama and Vishnu Deva.This is where 
-        you should start
-      </p>
-          </div>
-          <button className="btn1">
-            JOIN TODAY<FiArrowRight />
+        you should start</p> 
+        </div> 
+      <button className="btn1">
+            JOIN TODAY        <FiArrowRight />
           </button>
-           <button className='btn2'>
-            VIEW SERVICES        <FiArrowRight/>
-           </button>
-          <Header />
-
-    </div>
-  // </div>
+          <button className="btn2">
+             VIEW SERVICES         <FiArrowRight />
+          </button>
+          </div>    
+          </div>
+  //  </div>
+       
   )
 }
 
