@@ -1,84 +1,157 @@
-.footer1{
+.footer1 {
     width: 100vw;
     min-height: 60vh;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: 2px solid brown;
+
 }
-.f1{
+
+.f1 {
     height: 100%;
     width: 38vw;
     /* background-color: aqua; */
-     
-  
+
+
 }
-.h3{
+
+.h3 {
     color: red;
 }
-.f2{
+
+.f2 {
     height: 100%;
     width: 20vw;
-    background-color: white;
+    /* background-color:darkblue; */
     display: block;
     /* text-align: center; */
     /* padding: px 0px; */
 }
-.f2 a{
+
+.f2 a {
     text-decoration: none;
     color: black;
     padding-top: 30px;
 }
-.f2 a:hover{
-    color:blueviolet;
-   
+
+.f2 a:hover {
+    color: blueviolet;
+
 }
-.f2h3{
+
+.f2h3 {
     color: red;
     text-align: left;
 }
-.f2 img{
+
+.f2 img {
     height: 6vh;
     width: 2vw;
-    
+
 }
-.f3{
+
+.f3 {
     height: 100%;
     width: 30vw;
     /* background-color:  royalblue; */
     padding: 40px 0px;
     text-align: center;
 }
-.f31{
+
+.f31 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-.f3 a{
+
+.f3 a {
     /* text-decoration: none; */
     /* color: pink; */
     padding-left: 15px;
 }
-.f3 a:hover{
+
+.f3 a:hover {
     color: red;
 }
-.f3h2{
+
+.f3h2 {
     color: red;
 }
-.cpr{
+
+.cpr {
     height: 5vh;
     width: 100%;
     /* background-color: red; */
     text-align: center;
 }
+
 @media only screen and (max-width: 1000px) {
 
-  .footer1{
-    display: block;
-    text-align: center;
-    padding-left: 30vw;
-   
-  }
+    .footer1 {
+
+        text-align: center;
+        display: flex;
+
+        flex-direction: column;
+        /* border: 2px solid cornflowerblue; */
+    }
+
+    .f1 {
+        width: 90vw;
+        height: 30vh;
+        padding-left: 10px;
+
+    }
+
+    .f1 p {
+        text-align: center;
+    }
+
+    .h3 {
+        font-size: large;
+    }
+
+    .f2 {
+
+        padding-top: 12px;
+        width: 90vw;
+        height: 20vh;
+
+
+        /* background-color: blueviolet; */
+    }
+
+    .f2 h5 {
+        display: flex;
+        display: inline-block;
+
+        /* padding: 12px; */
+        justify-content: space-evenly;
+    }
+
+    .f2h3 {
+
+        font-size: large;
+        padding-left: 130px;
+    }
+
+    .f3h2 {
+        width: 100vw;
+        font-size: large;
+
+    }
+
+    .f2 img {
+        width: 8vw;
+    }
+
+    .f3 {
+        height: 20vh;
+        width: 90vw;
+
+        /* background-color: cornflowerblue; */
+    }
 }
