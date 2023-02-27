@@ -11,7 +11,7 @@ import { fontSize } from '@mui/system';
 
 export default function NewsFeed() {
   return (
-    <div>
+    <div id='news'>
        <h1 className='heading'>News Feed</h1>
        <div className='NewsFeed'>  
            

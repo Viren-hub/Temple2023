@@ -18,8 +18,8 @@ function App() {
             {/* <Header /> */}
             <LandPage />
             <About />
-            <Gallery />
-            <ChairPerson />
+            {/* <Gallery /> */}
+            {/* <ChairPerson /> */}
             <NewsFeed/>
             <Contact />
             <Footer />

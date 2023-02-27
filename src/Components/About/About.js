@@ -6,7 +6,7 @@ import Asset3 from '../../assets/Footer1.jpg'
 import { FiArrowRight } from "react-icons/fi";
 export default function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='ab-box1'>
         <div className='img1'  >
           <img src={Asset1} alt='img1'></img>
@@ -20,7 +20,7 @@ export default function About() {
       </div>
 
       <div className='ab-box2'>
-        <h1>Headline of temple </h1>
+        <h4>About temple </h4>
         <p>
           <img className='line1' alt=''></img>
           <img className='line2' alt=''></img>

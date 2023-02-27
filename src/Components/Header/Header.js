@@ -13,17 +13,13 @@ import './Header.css';
 
     <div className='header'>
       <nav ref={navRef}>
-				<a href="/#">HOME</a>
-
-				<a href="/#">ABOUT</a>
-				<a href="/#">PAGES</a>
-
-				<a href="/#">EVENT</a>
-				<a href="/#">HOLIS</a>
-				<a href="/#">PUJA</a>
-				<a href="/#">DONATION</a>
-				<a href="/#">CHAIRPERSON</a>
-				<a href="/#">CONTACT</a>
+				<a href="#home">Home</a>
+				<a href="#about">About</a>
+				<a href="#news">News</a>
+				
+				<a href="#">Donation</a>
+				<a href="#">ChairPerson</a>
+				<a href="#contact">Contact</a>
 				<button className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
 					<FaTimes />
