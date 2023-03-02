@@ -1,101 +1,193 @@
-.contact {
+.contact{
     height: 100vh;
     width: 100vw;
     /* background-color:bisque; */
 }
-
-.vcontact {
+.contact h5{
+    text-align: center;
+    color: rgb(131, 44, 59);
+    font-weight: bold;
+    margin-top: 1%;
+}
+.contact h2{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: 3rem;
+}
+.vcontact{
     height: 40%;
     width: 90%;
-    display: flex;
-    justify-content: space-evenly;
+    display:flex ; 
+     justify-content:space-evenly;
     align-items: center;
     position: relative;
 }
-
-.contact2 input {
-    width: 50%;
+.contact1{
+    height: 25%;
+    width: 45%;
+    border: 2px solid black;
+    background-color: rgb(67, 15, 33);
+    position: absolute;
+    left: 8%;
+    top: 8%;
+}
+.contact1 h4{
+    color: white;
+    text-align: center;
+    margin-top: 1.2rem;
+    letter-spacing:0.3rem;
+ }
+ .contact1 img{
+    height:20vh;
+    width: 25%;
+    position: absolute;
+    right: 85%;
+    bottom: 0%;
+} 
+.contact2{
+    height: 25%;
+    width: 45%;
+    border: 2px solid black;
+    background-color: rgb(67, 15, 33);
+    position: absolute;
+    left: 57%;
+    top: 8%;
+    text-align: center;
+}
+.contact2 img{
+    height:18vh;
+    width: 30%;
+    position: absolute;
+    /* right: 0%; */
+    left: 90%;
+    bottom: 0%;
+} 
+.contact2 h6{
+    color: white;  
+    text-align: center;  
+}
+.contact2 input{
+     width: 50%;
     height: 54%;
-    background-color: rgb(131, 35, 69);
-    border-radius: 0.4rem;
+    background-color:rgb(131, 35, 69);
+    border-radius:0.4rem;
     color: white;
     outline: none;
+    /* border: none; */
+    padding-left: 2%;
 
 }
+    ::placeholder{
+        color: white;
 
-::placeholder {
+    }
+ .btn-5{
+    width:6%;
+    height: 54%;
+    background-color:rgb(131, 35, 69);
     color: white;
+    font-size: 1.2rem;
+    /* border: 2px solid white; */
+    border-radius: 10% 10% 10% 10%;
+    position: absolute;
+    right: 25%;
+     border: none;
+     cursor: pointer;
+     transition: 1s;
+     transform: scale(1);
 
 }
-
-
-
-.btn-5:hover {
-    width: 6%;
+.btn-5:hover{
+    width:6%;
     height: 54%;
     background-color: rgb(231, 231, 245);
-    color: black;
+    color:black;
     transform: scale(1);
 
 }
-
-
-
-.contact3 {
+.contact-4{
+    height: 17%;
+    width: 6%;
+    background-color: rgb(251, 248, 254);
+    position: absolute;
+    left: 52%;
+    top: 12%;
+    border-radius:0.7rem;
+    text-align: center;
+    color:black;
+    font-size:2.1rem;
+    font-weight: bold;
+}
+.contact3{
     height: 60vh;
     width: 100%;
     border: 2px solid black;
     position: absolute;
-    top: 40%;
-    left: 5%;
+     top: 40%;
+    left: 5%; 
     display: flex;
     background-color: rgb(77, 33, 48);
 
 }
-
-.left {
-    width: 50%;
-    height: 60vh;
+.left{
+    width:50%;
+    height:60vh;
+    /* background-color: rgb(43, 186, 226); */
 }
-
-.contact-form {
-    display: block;
-    width: 100%;
-    height: 50vh;
-    margin-top: 5%;
+.contact-form{
+    display:block;
+    width:100%;
+    height:50vh;
+    margin-top:5%;
     /* border: 2px solid rgb(243, 240, 240); */
 }
-
 /* input,textarea{
     width: 100%;
     background:transparent;
     padding: 2%;
     margin: 1rem;
 }  */
-.contact-form .half {
+.contact-form .half{
     display: flex;
 }
-
-.half input {
+.half input{
     width: 100%;
-    background: transparent;
+    background:transparent;
     padding: 2%;
     margin: 1rem;
     border: 1px solid rgb(250, 242, 245);
     border-radius: 10px;
-    color: white;
-    position: relative;
+    color:white;
 }
-
-.user {
+.contact-form .full{
+    display: flex;
+}
+.full input{
+    width: 100%;
+    background:transparent;
+    padding: 2%;
+    margin: 1rem;
+    border: 1px solid rgb(250, 242, 245);;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+.user{
     color: rgb(160, 150, 150);
     position: absolute;
     top: 13%;
     left: 21%;
     font-size: 1.5rem;
 }
-
-.user1 {
+.sub{
+    color: rgb(160, 150, 150);
+    position: absolute;
+    top: 31%;
+    left: 21%;
+    font-size: 1.5rem;
+}
+.user1{
     color: rgb(160, 150, 150);
     position: absolute;
     top: 13%;
@@ -103,32 +195,7 @@
     font-size: 1.5rem;
 
 }
-
-.contact-form .full {
-    display: flex;
-}
-
-.full input {
-    width: 100%;
-    background: transparent;
-    padding: 2%;
-    margin: 1rem;
-    border: 1px solid rgb(250, 242, 245);
-    ;
-    border-radius: 10px;
-    position: relative;
-    color: white;
-}
-
-.sub {
-    color: rgb(160, 150, 150);
-    position: absolute;
-    top: 31%;
-    left: 21%;
-    font-size: 1.5rem;
-}
-
-.mail {
+.mail{
     color: rgb(160, 150, 150);
     position: absolute;
     top: 31%;
@@ -136,8 +203,7 @@
     font-size: 1.5rem;
 
 }
-
-.contact-form textarea {
+.contact-form textarea{
     width: 95%;
     background: transparent;
     margin-left: 2%;
@@ -147,385 +213,426 @@
     color: white;
     padding-left: 2%;
 }
-
-.btn4 {
+.btn4{
     height: 15%;
     width: 95%;
-    background-color: rgb(116, 60, 72);
-    color: white;
+    background-color:rgb(116, 60, 72);
+    color:white;
     border: 1px solid rgb(116, 60, 72);
     border-radius: 40px;
     margin-left: 2%;
     margin-top: 2%;
-    font-weight: bold;
+    font-weight: bold;   
 
     /* position: absolute;
     left:8%;
     top: 60%; */
 
 }
-
-.btn4:hover {
+.btn4:hover{
     background-color: white;
-    color: rgb(173, 14, 49);
-    border: 2px solid rgb(82, 13, 28);
+    color:rgb(173, 14, 49);
+    border:2px solid rgb(82, 13, 28);
 }
-
-.right {
-    width: 50%;
-    height: 60vh;
+.right{
+    width:50%;
+    height:60vh;
     /* background-color: rgb(188, 166, 223); */
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
 }
-
-.one {
+.one{
     height: 35vh;
 }
-
-.one h3 {
+.one h3{
     font-size: 2.7rem;
-    font-family: Brush Script MT;
+    font-family:Brush Script MT	 ;
     letter-spacing: 0.2rem;
     /* font-weight: bold; */
     color: white;
 }
-
-.one h4 {
+.one h4{
     font-size: 2.2rem;
-    font-family: Papyrus;
+    font-family:Papyrus;
     /* letter-spacing: 0.2rem; */
     font-weight: bold;
     color: rgb(208, 201, 201);
 }
-
-.one h6 {
+.one h6{
     font-size: 2.8rem;
-    font-family: Brush Script MT;
+    font-family:Brush Script MT;
     letter-spacing: 0.1rem;
     /* font-weight: bold; */
     color: white;
     text-align: center;
 }
-
-.two {
+.two{
     height: 45vh;
 }
-
-.two h3 {
+.two h3{
     font-size: 1.7rem;
-    font-family: Courier;
+    font-family:Courier ;
     letter-spacing: 0.2rem;
     /* font-weight: bold; */
     color: rgb(208, 201, 201);
     text-align: center;
 }
-
-span {
+span{
     font-size: 2.4rem;
-    font-family: Gabriola;
+    font-family:Gabriola;
     font-weight: bold;
     letter-spacing: 0.2rem;
 
 }
-
-.two h4 {
+.two h4{
     font-size: 2.2rem;
-    font-family: MS Gothic;
+    font-family:MS Gothic;
     /* letter-spacing: 0.2rem; */
     font-weight: bold;
     color: rgb(208, 201, 201);
     text-align: center;
 }
-
-.two h6 {
+.two h6{
     font-size: 1.7rem;
-    font-family: Courier;
+    font-family:Courier;
     letter-spacing: 0.1rem;
     /* font-weight: bold; */
     color: rgb(208, 201, 201);
     text-align: center;
 }
-
-span {
+span{
     font-size: 2.4rem;
-    font-family: Gabriola;
+    font-family:Gabriola;
     font-weight: bold;
     letter-spacing: 0.3rem;
 
 }
-
-@media only screen and (max-width: 900px) {
-    .contact {
+@media only  screen and (max-width: 900px)  {
+    .contact{
         height: 100vh;
         width: 100vw;
-    }
 
-    .contact h5 {
+    }
+    .contact h5{
         /* text-align: center; */
         color: rgb(131, 44, 59);
         font-weight: bold;
     }
-
-    .contact h2 {
+    .contact h2{
         text-align: center;
         font-weight: bold;
         color: red;
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
-
-    .vcontact {
-        height: 15%;
+    .vcontact{
+        height: 19%;
         width: 100%;
-        background-color: rgb(75, 23, 42);
-        display: block;
-        /* margin-top: 1%; */
-        /* justify-content:space-evenly;
+        background-color: rgb(53, 13, 28);
+        display:block;
+        margin-top: -3%;
+         /* justify-content:space-evenly;
          align-items: center;  */
-        flex-direction: column;
-        /* position: relative; */
+         flex-direction: column;
+        position: relative;
     }
-
-    .contact1 {
-        height: 25%;
+    .contact1{
+         height: 25%;
         width: 100%;
-        border: 2px solid rgb(0, 0, 0);
-        display: contents;
-        /* position: absolute;
+        border: 2px solid black;  
+         display: contents;
+        position: absolute;
         left: 8%;
-        top: 8%; */
+        top: 8%;
     }
-
-    .contact1 h4 {
+    .contact1 h4{
         color: white;
         text-align: center;
         margin-top: 0.7rem;
-        letter-spacing: 0.1rem;
-        font-size: 1.3rem;
-    }
-
-    .contact1 img {
-        height: 20vh;
-        width: 25%;
-        position: absolute;
-        right: 85%;
-        bottom: 0%;
-        display: none;
-    }
-
-    .contact2 {
-        height: 25%;
-        border: 2px solid black;
-        background-color: rgb(58, 12, 30);
-        width: 100%;
-        display: contents;
-        /* position: absolute;
+        letter-spacing:0.1rem;
+        font-size: 1.5rem;
+     }
+    
+    .contact1 img{
+       height:20vh;
+       width: 25%;
+       position: absolute;
+       right: 85%;
+       bottom: 0%;
+       display: none;
+   } 
+   .contact2{
+       height: 25%;
+       border: 2px solid black;
+       background-color: rgb(24, 255, 186);
+       width: 100%;
+       display: contents;
+       position: absolute;
        left: 57%;
-       top: 8%; */
-        /* text-align: center; */
-    }
-
-    .contact2 img {
-        height: 18vh;
-        width: 30%;
-        position: absolute;
-        /* right: 0%; */
-        left: 90%;
-        bottom: 0%;
-        display: none;
-    }
-
-    .contact2 h6 {
-        color: white;
-        font-size: 1.2rem;
-    }
-
-    .contact2 input {
-        width: 58%;
-        height: 28%;
-        background-color: rgb(131, 35, 69);
-
-        border-radius: 0.4rem;
-        display: inline-block;
-        margin-left: 21%;
-        /* position: absolute;
+       top: 8%;
+       /* text-align: center; */
+   }
+   .contact2 img{
+       height:18vh;
+       width: 30%;
+       position: absolute;
+       /* right: 0%; */
+       left: 90%;
+       bottom: 0%;
+       display: none;
+   } 
+   .contact2 h6{
+       color: white;
+       font-size: 1.5rem; 
+       /* margin-top: 0.4rem;    */
+   }
+   .contact2 input{
+        width: 55%;
+       height:25%;
+       background-color:rgb(131, 35, 69);
+       border-radius:0.4rem;
+       display: inline-block;
+       position: absolute;
        top:60%;
-       left: 24%; */
-        outline: none;
-        border: none;
-    }
-
-    ::placeholder {
-        color: white;
-    }
-
-    .btn-5 {
-        width: 8%;
-        height: 28%;
-        background-color: rgb(131, 35, 69);
-        color: white;
-        text-align: center;
-        border-radius: 10% 10% 10% 10%;
-        /* position: absolute;
-       left: 69%;
+       left: 24%;
+       outline: none;
+       border: none;
+       }
+       ::placeholder{
+           color: white;
+       }
+    .btn-5{
+       width:10%;
+       height: 25%;
+       background-color:rgb(131, 35, 69);
+       color: white;
+       text-align: center;
+       border-radius: 10% 10% 10% 10%;
+       position: absolute;
+       /* left: 69%; */
        top: 60%;
-       right: 21%; */
-        font-size: 1rem;
-        margin-right: -4%;
-        transition: 1s;
-        transform: scale(1);
-    }
-
-    .btn-5:hover {
-        width: 8%;
-        height: 28%;
-        background-color: rgb(231, 231, 245);
-        color: black;
-        transform: scale(1);
-    }
-
-    .contact-4 {
-        height: 17%;
-        width: 6%;
-        background-color: rgb(251, 248, 254);
-        position: absolute;
-        left: 52%;
-        top: 12%;
-        border-radius: 0.7rem;
-        text-align: center;
-        color: black;
-        font-size: 2.1rem;
-        font-weight: bold;
-        display: none;
-    }
-
-    .contact3 {
-        height: 60vh;
-        width: 100%;
-        border: 2px solid black;
-        position: absolute;
+       right: 21%;
+       transition: 1s;
+       transform: scale(1);
+   }
+   .btn-5:hover{
+       width:10%;
+       height: 25%;
+       background-color: rgb(231, 231, 245);
+       color:black;
+       transform: scale(1);
+   }
+   .contact-4{
+       height: 17%;
+       width: 6%;
+       background-color: rgb(251, 248, 254);
+       position: absolute;
+       left: 52%;
+       top: 12%;
+       border-radius:0.7rem;
+       text-align: center;
+       color:black;
+       font-size:2.1rem;
+       font-weight: bold;
+       display: none;
+   }
+   .contact3{
+       height: 65vh;
+       width: 100%;
+       border: 2px solid black;
+       position: absolute;
         top: 100%;
-        left: 1%;
-        /* display:block; */
-        /* display: none; */
-
-    }
-
-    .left {
-        width: 100%;
-        height: 60vh;
-    }
-
-    .contact-form {
-        display: block;
-        width: 100%;
-        height: 60vh;
-        /* border: 2px solid rgb(243, 240, 240); */
-    }
-
-    .contact-form .half {
-        display: block;
-    }
-
-    .half input {
-        width: 90%;
-        background: transparent;
-        margin-top: -1%;
+       left: 1%; 
+       display:block;
+       background-color: rgb(77, 33, 48);
+       /* display: none; */
+   
+   }
+   .left{
+       width:100%;
+       height:30vh;
+       /* background-color: rgb(43, 186, 226); */
+   }
+   .contact-form{
+       display:block;
+       width:100%;
+       height:20vh;
+       /* border: 2px solid rgb(243, 240, 240); */
+   }
+   /* input,textarea{
+       width: 100%;
+       background:transparent;
+       padding: 2%;
+       margin: 1rem;
+   }  */
+   .contact-form .half{
+       display: block;
+   }
+   .half input{
+       width: 90%;
+       background:transparent;
+        padding: 3%;
+       margin: 0rem 0.2rem 0.2rem 1rem; 
         border: 1px solid rgb(250, 242, 245);
-        border-radius: 5px;
-        position: relative;
+       border-radius: 5px;
+       height: 4vh;
+   }
+   .contact-form .full{
+       display: block;
+    
+   }
+   .full input{
+       width: 90%;
+       background:transparent;
+       height: 4vh;
+       padding:3%;
+       margin: 0rem 0.2rem 0.2rem 1rem; 
+       border: 1px solid rgb(250, 242, 245);;
+       border-radius: 5px;
+       position: relative;
+   }
+   .user{
+       color: rgb(160, 150, 150);
+       position: absolute;
+       top: 3%;
+       left: 83%;
+       font-size: 1.3rem;
+   }
+   .sub{
+       color: rgb(160, 150, 150);
+       position: absolute;
+       top: 17%;
+       left: 83%;
+       font-size: 1.3rem;
+   }
+   .user1{
+       color: rgb(160, 150, 150);
+       position: absolute;
+       top: 10%;
+       left: 83%;
+       font-size: 1.3rem;
+   
+   }
+   .mail{
+       color: rgb(160, 150, 150);
+       position: absolute;
+       top: 24%;
+       left: 83%;
+       font-size: 1.3rem;
+   
+   }
+   .contact-form textarea{
+       width: 90%;
+       background: transparent;
+       margin: 0rem 0.2rem 0.2rem 1rem; 
 
-    }
+       border: 1px solid white;
+       border-radius:5px;
+       height: 22%;
+       color: dimgrey;
+       margin-top: 0.2rem;
+   }
+   .btn4{
+       height: 14%;
+       width: 90%;
+       background-color:rgb(116, 60, 72);
+       color:white;
+       border: 1px solid rgb(116, 60, 72);
+       border-radius: 40px;
+       margin-left: 5%;
+       margin-top: -0rem;
+       font-size: 0.7rem;
+   }
+   .btn4:hover{
+    height: 15%;
+       background-color: white;
+       color:rgb(173, 14, 49);
+       border:2px solid rgb(82, 13, 28);
+       font-size: 0.7rem;
+   }
+   .right{
+       width:100%;
+       height:30vh;
+       /* background-color: rgb(188, 166, 223); */
+       display:block;
+       justify-content:space-evenly;
+       align-items: center;
+       /* margin-top: -5%; */
+   }
+   .one{
+       height: 15vh;
+       /* background-color: aqua; */
+   }
+   .one h3{
+       font-size:1rem;
+       font-family:Brush Script MT	 ;
+       letter-spacing: 0.2rem;
+       /* font-weight: bold; */
+       color: white;
+       text-align: center;
+       margin-top: -4%;
+   }
+   .one h4{
+       font-size:1rem;
+       font-family:Papyrus;
+       /* letter-spacing: 0.2rem; */
+       font-weight: bold;
+       color: rgb(208, 201, 201);
+       text-align: center;
+       margin-top: -4%;
+   }
+   .one h6{
+       font-size: 1rem;
+       font-family:Brush Script MT;
+       letter-spacing: 0.1rem;
+       /* font-weight: bold; */
+       color: white;
+       text-align: center;
+       margin-top: -5%;
+   }
+   .two{
+       height: 15vh;
+   }
+   .two h3{
+       font-size:1rem;
+       font-family:Courier ;
+       letter-spacing: 0.2rem;
+       /* font-weight: bold; */
+       color: rgb(208, 201, 201);
+       text-align: center;
+       margin-top: -2%;
+   }
+   span{
+       font-size:1rem;
+       font-family:Gabriola;
+       font-weight: bold;
+       letter-spacing: 0.2rem;
+       margin-top: -3%;
+   }
+   .two h4{
+       font-size:1rem;
+       font-family:MS Gothic;
+       /* letter-spacing: 0.2rem; */
+       font-weight: bold;
+       color: rgb(208, 201, 201);
+       text-align: center;
+       margin-top: -2%;
+   }
+   .two h6{
+       font-size: 1rem;
+       font-family:Courier;
+       letter-spacing: 0.1rem;
+       /* font-weight: bold; */
+       color: rgb(208, 201, 201);
+       text-align: center;
+       margin-top: -4%;
+   }
+   span{
+       font-size:1rem;
+       font-family:Gabriola;
+       font-weight: bold;
+       letter-spacing: 0.3rem;
+       margin-top: -4%;
 
-    .user {
-        color: rgb(160, 150, 150);
-        position: absolute;
-        top: 0.5em;
-        left: 13em;
-        /* text-align: right; */
-        font-size: 1.5rem;
-    }
-
-    .user1 {
-        color: rgb(160, 150, 150);
-        position: absolute;
-        top: 2.8em;
-        left: 13em;
-        font-size: 1.5rem;
-    }
-
-    .contact-form .full {
-        display: block;
-        height: 20%;
-    }
-
-    .full input {
-        width: 90%;
-        background: transparent;
-        margin-top: -1%;
-        border: 1px solid rgb(250, 242, 245);
-        ;
-        border-radius: 5px;
-        position: relative;
-    }
-
-    .sub {
-        color: rgb(160, 150, 150);
-        position: absolute;
-        top: 4.9em;
-        left: 13em;
-        font-size: 1.5rem;
-    }
-
-    .mail {
-        color: rgb(160, 150, 150);
-        position: absolute;
-        top: 7em;
-        left: 13em;
-        font-size: 1.5rem;
-
-    }
-
-    .contact-form textarea {
-        width: 90%;
-        background: transparent;
-        border: 1px solid white;
-        border-radius: 5px;
-        color: dimgrey;
-        margin: 6% 0% 0% 4%;
-        align-items: center;
-    }
-
-    .btn4 {
-        height: 8%;
-        width: 90%;
-        background-color: rgb(116, 60, 72);
-        color: white;
-        border: 1px solid rgb(116, 60, 72);
-        border-radius: 40px;
-        margin-left: 5%;
-        margin-top: 1%;
-        font-size: 0.7rem;
-    }
-
-    .btn4:hover {
-        height: 8%;
-        background-color: white;
-        color: rgb(173, 14, 49);
-        border: 2px solid rgb(82, 13, 28);
-        font-size: 0.7rem;
-    }
-
-    .right {
-        width: 100%;
-        height: 30vh;
-        /* background-color: rgb(188, 166, 223); */
-        display: block;
-        justify-content: space-evenly;
-        align-items: center;
-        /* margin-top: -5%; */
-        display: none;
-    }
-
+   }
 }
