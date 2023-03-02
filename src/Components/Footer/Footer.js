@@ -9,7 +9,7 @@ export default function Footer() {
         <div className='f1'>
           
           <h3 className='h3'>About Us</h3>
-          <h4>You need to be sure there isn't anything embarrassing hidden in the middle of text</h4><br></br>
+          <p>You need to be sure there isn't anything embarrassing hidden in the middle of text</p><br></br>
           <h6><FaPhone/> 987-987-930-302</h6>
           <h6><FaMailBulk/> Info@example.com</h6>
           <h6><FaLocationArrow/> 14/A,Poor Street City Tower,New York USA</h6>

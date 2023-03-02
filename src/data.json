@@ -10,14 +10,26 @@
             "author": "Miha Boukar"
           },
           {
-            "title": "Temple companies are being so transparent with thier work.",
-            "date": May 20, 2022,
-            "author": "Miha Boukar"
-          }
+            "name": "Madame Uppercut",
+            "age": 39,
+            "secretIdentity": "Jane Wilson",
+            "powers": [
+              "Million tonne punch",
+              "Damage resistance",
+              "Superhuman reflexes"
+            ]
+          },
           {
-            "title": "Temple companies are being so transparent with thier work.",
-            "date": May 20, 2022,
-            "author": "Miha Boukar"
+            "name": "Eternal Flame",
+            "age": 1000000,
+            "secretIdentity": "Unknown",
+            "powers": [
+              "Immortality",
+              "Heat Immunity",
+              "Inferno",
+              "Teleportation",
+              "Interdimensional travel"
+            ]
           }
         ]
       },

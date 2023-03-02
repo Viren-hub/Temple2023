@@ -1,6 +1,6 @@
 
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// import '../node_modules/bootstrap/dist/css/bootstrap min.css'
 import 'bootstrap/dist/js/bootstrap.min.js';
 import React from 'react';
 import Footer from './Components/Footer/Footer';
@@ -18,8 +18,8 @@ function App() {
             {/* <Header /> */}
             <LandPage />
             <About />
-            <Gallery />
-            <ChairPerson />
+            {/* <Gallery /> */}
+            {/* <ChairPerson /> */}
             <NewsFeed/>
             <Contact />
             <Footer />
