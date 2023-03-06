@@ -2,43 +2,52 @@ import React from 'react'
 import './LandPage.css'
 import Header from '../Header/Header';
 import { FiArrowRight } from "react-icons/fi";
-
-
+import Data from '../../data.json';
 function LandPage() {
-
   return (
-
+    
 
     <div className='landpage' id='home'>
+
       <div className='nav'>
         <Header />
       </div>
-      {/* <div className='main-div'> */}
       <div className='left-one'>
-        <h1>Some Important Life Lessons From Gita</h1><br />
+        {
+               Data.map((Data, index)=>(
+                <h1 key={index}>{Data.heading}</h1>
+
+               ))
+      }
+
         <div className='vleft'>
           <div className='left-img'>
             <img className='line4' alt='' />
             <img className='line5' alt='' />
             <img className='line6' alt='' />
           </div>
-          <p>
-            We are a Hindu that belives in Lord Rama and Vishnu Deva the followers
-            and We are a Hindu that belives in Lord Rama and Vishnu Deva.This is where
-            you should start</p>
+          {
+                           Data.map((Data, index)=>(
+
+          <p key={index}>{Data.subheading}</p>
+                           ))
+}
         </div>
+        
         <button className="btn1">
-          JOIN TODAY        <FiArrowRight />
+          Join Today         <FiArrowRight />
         </button>
         <button className="btn2">
-          VIEW SERVICES         <FiArrowRight />
+          View Services         <FiArrowRight />
         </button>
+  
       </div>
+
     </div>
-    //  </div>
 
   )
 }
+
 
 
 

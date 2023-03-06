@@ -4,6 +4,7 @@ import Asset1 from '../../assets/Footer1.jpg'
 import Asset2 from '../../assets/Footer1.jpg'
 import Asset3 from '../../assets/Footer1.jpg'
 import { FiArrowRight } from "react-icons/fi";
+import Data from '../../data.json'
 export default function About() { 
   const [Show, setShow] = useState(false);
   return (
@@ -26,12 +27,15 @@ export default function About() {
         <img className='line3' alt=''></img>
 
         <div className='para7'>
-          <p>
-            Hindu temples are known by many different names, varying on region and language,
-            including Alayam,Mandir, Mandira, Ambalam, Gudi, Kavu, Koil, Kovil, Déul, Raul,
-            Devasthana, Devalaya, Devayatan, Devakula, Devagiriha, Degul, Deva Mandiraya, and
-            Devalaya.
+        {
+               Data.map((Data, index)=>(
+                <p key={index}>{Data.About}
+
+    
+          
             {
+              
+
               Show ? <span className='para5'>
                 Hindu temple architecture is mainly divided into the Dravidian style of the
                 south and the Nagara style of the north, with other regional styles.
@@ -60,8 +64,9 @@ export default function About() {
                 relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
 
               </span> :null }
-            
-          </p>
+            </p>
+               ))
+            }
           <button  onClick={()=>setShow(!Show)} className='bton'>Learn More<FiArrowRight /></button>
 
           </div>
