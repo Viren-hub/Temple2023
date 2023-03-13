@@ -29,7 +29,7 @@ export default function About() {
         <div className='para7'>
         {
                Data.map((Data, index)=>(
-                <p key={index}>{Data.About}
+                <p key={index}>{Data.about}
 
     
           
@@ -66,9 +66,14 @@ export default function About() {
               </span> :null }
             </p>
                ))
-            }
-          <button  onClick={()=>setShow(!Show)} className='bton'>Learn More<FiArrowRight /></button>
-
+            }   
+               {/* {   
+               Data.map ((Data)=>( */}
+               <button  onClick={()=>setShow(!Show)} className='bton'>{Data[2].btn}<FiArrowRight /></button>
+                {/* )
+               )
+                  
+} */}
           </div>
       </div>
     </div>

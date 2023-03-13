@@ -1,8 +1,29 @@
 [
   {
+
+    "navlinks":["Home", "About", "News","Donation","ChairPerson","Contact"]
+
+  },
+      {
     "heading": "Some Important Life Lessons From Gita",
-    "subheading": "We are a Hindu that belives in Lord Rama and Vishnu Deva the followers and We are a Hindu that belives in Lord Rama and Vishnu Deva.This is where you should start",
-    "About": "Hindu temples are known by many different names, varying on region and language, including Alayam,Mandir, Mandira, Ambalam, Gudi, Kavu, Koil, Kovil, Déul, Raul, Devasthana, Devalaya, Devayatan, Devakula, Devagiriha, Degul, Deva Mandiraya, and Devalaya."
-       
-  }
+    "subheading": "We are a Hindu that belives in Lord Rama and Vishnu Deva the followers and We are a Hindu that belives in Lord Rama and Vishnu Deva.This is where you should start."
+    
+
+    },
+    {
+      "about": "Hindu  temples are known by many different names, varying on region and language, including Alayam,Mandir, Mandira, Ambalam, Gudi, Kavu, Koil, Kovil, Déul, Raul, Devasthana, Devalaya, Devayatan, Devakula, Devagiriha, Degul, Deva Mandiraya, and Devalaya",
+      "btn": "Learn More"
+    },
+      {
+        
+        "title": "Temple companies are being so transparent with thier work",
+         "description":"ॐ Temple,Love",
+        "date": "May 20, 2022",
+        "author": " by Miha Boukar."
+      }
+
+
 ]
+ 
+  
+

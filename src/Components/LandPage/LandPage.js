@@ -6,12 +6,12 @@ import Data from '../../data.json';
 function LandPage() {
   return (
     
-
-    <div className='landpage' id='home'>
-
-      <div className='nav'>
+        <div  className='landpage' id='home'>
+                <div className='nav'>
+  
         <Header />
       </div>
+
       <div className='left-one'>
         {
                Data.map((Data, index)=>(
@@ -44,7 +44,8 @@ function LandPage() {
       </div>
 
     </div>
-
+  
+  
   )
 }
 
